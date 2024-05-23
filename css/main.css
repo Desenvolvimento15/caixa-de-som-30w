@@ -1,4 +1,4 @@
-*{
+    *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -21,6 +21,15 @@
     font-weight: 100 900;
     font-display: swap;
     src: url('./fonts/4.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+    font-family: 'Xiaomi Brand';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2') format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
     
@@ -50,11 +59,12 @@
     
     :root{
     --background-white: #ffff;
-    --background-black: #111;
-    --background-silver: #e2e1e6;
+    --background-black: #292929;
+    --background-silver: #E8E8E8;
+    --background-orange: #ff5e32;
     
     --text-white: #fff;
-    --text-preto: #000;
+    --text-preto: #292929;
     }
     
     .txt-branco {color: var(--text-white);}
@@ -109,32 +119,23 @@
     font-size: 3rem;
     font-weight: 600;
     font-display: swap;
-    font-family: 'CamphorPro', sans-serif;
+    font-family: 'Xiaomi Brand';
     position: relative;
     overflow-wrap: break-word;
     }
     
-    .title-purple {
+    .title-orange {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(-55deg,#a39bed,#7169e1);
+    background: linear-gradient(55deg, #ffbd4b 25%, #fd5f19 85%);
     -webkit-background-clip: text;
     background-clip: text;
     background-repeat: no-repeat;
     background-size: 150% 150%;
     color: #000;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: 0;
     text-align: center;
-    }
-    
-    .subtitle-xioami{
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    overflow-wrap: break-word;
     }
     
     .subtitle-left {
@@ -159,19 +160,6 @@
     margin-bottom: 1rem;
     }
     
-    .subtitle {
-    text-align: left;
-    font-size: 3.5rem;
-    font-weight: 800;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    overflow-wrap: break-word;
-    left: 25%;
-    width: 39rem;
-    line-height: 1.1;
-    top: 6rem;
-    }
-    
     .p-center {
     font-size: 1.1rem;
     text-align: center;
@@ -189,6 +177,7 @@
     line-height: 1.3;
     overflow-wrap: break-word;
     }
+
     .p-info-left {
     font-size: 1.1rem;
     text-align: left;
@@ -257,6 +246,18 @@
     }
     
     /***************************** Grid ******************************************/
+
+    .grid {
+    position: absolute;
+    top: 328px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
     
     .grid-title {
     position: absolute;
@@ -330,105 +331,15 @@
     
     
     
-    
     /***************************** Conteudos ******************************************/
     
     .spacing{padding: 3rem;}
     .spacing-galery{padding: 12rem;}
-    
-    .parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 19px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 5; }
-    .div2 { grid-area: 2 / 1 / 3 / 4; }
-    .div3 { grid-area: 3 / 1 / 5 / 2; }
-    .div4 { grid-area: 3 / 2 / 5 / 3; }
-    .div5 { grid-area: 3 / 3 / 5 / 4; }
-    .div6 { grid-area: 2 / 4 / 5 / 5; }
-    
-    
-    /***************************** Slides ******************************************/
-    
-    .slick-slider {
-    position: relative;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    }
-    
-    .slick-list, .slick-slider button{overflow: hidden}
-    .slick-list.dragging {cursor: ew-resize}
-    .slick-slide {
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-    z-index: 10 !important;
-    }
-    
-    .slick-slide img{width:100%}
-    .slick-slide.dragging img {pointer-events: none}
-    .slick-initialized .slick-slide {display: block}
-    .slick-slider button{
-    cursor: pointer; 
-    outline: 0;
-    text-indent: 100px;
-    transition: all .4s ease;
-    }
-    
-    
-    /*** Pagination ***/
-    .slick-dots {
-    margin: 2rem 0 0;
-    padding: 0;
-    text-align: left;
-    margin-bottom: 1rem;
-    }
-    
-    .slick-dots li{
-    display: inline-block;
-    margin: 0 5px;
-    }
-    
-    .slick-dots button {
-    background: #828282;
-    border-radius: 15px;
-    border: 1px solid #828282;
-    height: 20px;
-    width: 20px;
-    }
-    
-    .slick-active button{
-    background: #292929; 
-    border-color: #292929;
-    }
+        
     
     /************************************* Mobile ***************************************/
     
     @media only screen and (max-width: 920px) {
-    
-    .parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 3; }
-    .div2 { grid-area: 2 / 1 / 3 / 2; }
-    .div3 { grid-area: 2 / 2 / 3 / 3; }
-    .div4 { grid-area: 3 / 1 / 4 / 3; }
-    .div5 { grid-area: 4 / 1 / 5 / 3; }
-    .div6 { grid-area: 5 / 1 / 6 / 3; }
     
     .spacing{padding: 1rem;}
     .spacing-galery{padding: 1rem;}
