@@ -259,6 +259,14 @@
     width: 100%;
     }
 
+    .grid-tree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 62rem;
+    margin: 0 auto;
+    }
+
     .grid-title {
     position: absolute;
     right: 50rem;
