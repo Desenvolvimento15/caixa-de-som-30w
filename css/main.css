@@ -177,18 +177,6 @@
     line-height: 1.3;
     overflow-wrap: break-word;
     }
-
-    .p-info-left {
-    font-size: 1.1rem;
-    text-align: left;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    line-height: 1.3;
-    overflow-wrap: break-word;
-    width: 19rem;
-    top: -9rem;
-    left: 49rem;
-    }
     
     .p-notas{
     text-align: left;
@@ -196,18 +184,7 @@
     padding: 5rem;
     font-family: 'CamphorPro', sans-serif;
     }
-    
-    .p-info {
-    margin-top: 3rem;
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    line-height: 1.5;
-    overflow-wrap: break-word;
-    width: 25rem;
-    }
-    
+        
     .p{
     font-size: 1.2rem;
     text-align: left;
@@ -276,41 +253,7 @@
     display: flex;
     flex-direction: column;
     }
-    
-    .grid-info {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    }
-    
-    .grid-img-text {
-    display: flex;
-    gap: 6rem;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .grid-xiaomi-text-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: start;
-    justify-items: start;
-    }
-    
-    .grid-live{
-    display: flex;
-    }
-    
-    .grid-coll-text {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-    justify-content: center;
-    width: 34rem;
-    }
-    
+            
     .grid-atm{
     position: absolute;
     left: -42rem;
@@ -322,13 +265,7 @@
     height: 15rem;
     display: block;
     }
-    
-    .icons-img-text {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    }
-    
+        
     .grid-text {
     display: flex;
     justify-content: center;
@@ -367,48 +304,13 @@
     display: flex;
     flex-direction: column;
     }
-    
-    .grid-xiaomi-text-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
-    
-    .grid-two-blocos{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    width: 12rem;
-    gap: 1rem;
-    }
-    
-    .grid-bloco-two{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;    
-    }
-        
-    .grid-img-text {
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-    }
-    
+   
     .grid-text {
     display: flex;
     flex-direction: column;
     }
     
-    .grid-live {
-    display: flex;
-    flex-direction: column;
-    }
-    
+
     /**************************TxT******************************/
     
     .title-redmi {
