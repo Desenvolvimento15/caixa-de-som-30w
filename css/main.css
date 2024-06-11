@@ -159,6 +159,17 @@
     line-height: 1.1;
     margin-bottom: 1rem;
     }
+
+    .subtitle{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'CamphorPro', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
     
     .p-center {
     font-size: 1.1rem;
@@ -279,8 +290,7 @@
     /***************************** Conteudos ******************************************/
     
     .spacing{padding: 3rem;}
-    .spacing-galery{padding: 12rem;}
-        
+    
     
     /************************************* Mobile ***************************************/
     
