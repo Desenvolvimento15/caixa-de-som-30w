@@ -356,6 +356,17 @@
     .img-mob{display: block;}
     
     /***************************** Grind Mobile ************************************/
+
+
+    .grid-title {
+    position: absolute;
+    right: 10rem;
+    top: 175px;
+    bottom: 0;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    }
     
     .grid-xiaomi-text-info {
     display: grid;
@@ -381,17 +392,7 @@
     align-items: center;
     gap: 1rem;    
     }
-    
-    .grid-title {
-    position: absolute;
-    right: 50rem;
-    top: 237px;
-    bottom: 0;
-    height: 6rem;
-    display: flex;
-    flex-direction: column;
-    }
-    
+        
     .grid-img-text {
     display: flex;
     gap: 2rem;
@@ -412,7 +413,7 @@
     
     .title-redmi {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-display: swap;
     font-family: 'CamphorPro', sans-serif;
