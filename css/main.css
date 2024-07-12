@@ -170,7 +170,17 @@
     line-height: 1.1;
     margin-bottom: 1rem;
     }
-    
+    .subtitle-box{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'CamphorPro', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
     .p-center {
     font-size: 1.1rem;
     text-align: center;
@@ -246,6 +256,18 @@
     align-items: center;
     width: 100%;
     }
+    .grid-box {
+    position: absolute;
+    top: 0rem;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    }
+
 
     .grid-text-second{
      display: flex;
