@@ -392,6 +392,13 @@
     flex-wrap: nowrap;
     }
     
+    .grid-title-tree {
+      position: absolute;
+      right: 0rem;
+      left: 0rem;
+      bottom: 0rem;
+      top: 11rem;
+      }
 
     /**************************TxT******************************/
     .title-orange {
