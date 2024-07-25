@@ -130,7 +130,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     background-repeat: no-repeat;
-    background-size: 150% 150%;
+    background-size: 150%;
     color: #000;
     font-size: 3rem;
     font-weight: 700;
@@ -407,7 +407,7 @@
       -webkit-background-clip: text;
       background-clip: text;
       background-repeat: no-repeat;
-      background-size: 150% 150%;
+      background-size: 150%;
       color: #000;
       font-size: 2rem;
       font-weight: 700;
