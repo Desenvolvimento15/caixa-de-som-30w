@@ -431,7 +431,7 @@
     
     .title-redmi {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     font-display: swap;
     font-family: 'CamphorPro', sans-serif;
@@ -450,7 +450,7 @@
 
     .subtitle{
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: 300;
       font-family: 'CamphorPro', sans-serif;
       position: relative;
