@@ -145,7 +145,7 @@
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    line-height: 1.1;
+    line-height: 1.5;
     margin-bottom: 1rem;
     }
     
@@ -156,7 +156,7 @@
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    line-height: 1.1;
+    line-height: 1.5;
     margin-bottom: 1rem;
     }
 
@@ -167,7 +167,7 @@
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    line-height: 1.1;
+    line-height: 1.5;
     margin-bottom: 1rem;
     }
     .subtitle-box{
@@ -177,7 +177,7 @@
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    line-height: 1.1;
+    line-height: 1.5;
     margin-bottom: 1rem;
     }
 
@@ -186,7 +186,7 @@
     text-align: center;
     font-family: 'CamphorPro', sans-serif;
     position: relative;
-    line-height: 1.3;
+    line-height: 1.5;
     overflow-wrap: break-word;
     }
     
@@ -195,7 +195,7 @@
     text-align: left;
     font-family: 'CamphorPro', sans-serif;
     position: relative;
-    line-height: 1.3;
+    line-height: 1.5;
     overflow-wrap: break-word;
     }
     
@@ -379,6 +379,10 @@
     /************************************* Mobile ***************************************/
     
     @media only screen and (max-width: 920px) {
+
+    .container-s101{
+      display: none;
+    }
     
     .spacing{padding: 1rem;}
     .spacing-galery{padding: 1rem;}
