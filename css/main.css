@@ -312,6 +312,27 @@
     margin: 0 auto;
     }
 
+    .grid-08 {
+      position: absolute;
+      top: 5rem;
+      left: 56%;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      width: 38%;
+      height: 21rem;
+      justify-content: center;
+  }
+
+    .grid-14 {
+      position: absolute;
+      top: 5rem;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      width: 27%;
+      justify-content: center;
+  }
     .grid-title-tree {
     position: absolute;
     right: 0rem;
