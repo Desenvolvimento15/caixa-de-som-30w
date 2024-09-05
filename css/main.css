@@ -137,6 +137,20 @@
     letter-spacing: 0;
     text-align: center;
     }
+
+    .title-orange-01 {
+      -webkit-text-fill-color: transparent;
+      background: linear-gradient(55deg, #ffbd4b 25%, #fd5f19 85%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      background-repeat: no-repeat;
+      background-size: 150%;
+      color: #000;
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-align: left;
+      }
     
     .subtitle-left {
     text-align: left;
@@ -145,7 +159,7 @@
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    line-height: 1.5;
+    line-height: 1.1;
     margin-bottom: 1rem;
     }
     
@@ -314,13 +328,13 @@
 
     .grid-08 {
       position: absolute;
-      top: 5rem;
-      left: 56%;
+      top: 5%;
+      left: 59%;
       bottom: 0;
       display: flex;
       flex-direction: column;
       width: 38%;
-      height: 21rem;
+      height: 19rem;
       justify-content: center;
   }
 
