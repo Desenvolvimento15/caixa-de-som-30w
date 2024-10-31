@@ -326,16 +326,17 @@
   height: 19rem;
   justify-content: center;
   }
+
   .grid-14 {
-    position: absolute;
-    top: 5rem;
-    left: 5rem;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    width: 37%;
-    justify-content: center;
-}
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+  justify-content: center;
+  }
   .grid-title-tree {
   position: absolute;
   right: 0rem;
